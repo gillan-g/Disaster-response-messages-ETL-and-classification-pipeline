@@ -143,7 +143,7 @@ def go():
 
 
 def main():
-    app.run(host='0.0.0.0', port=3001, debug=True)
+    app.run(host='0.0.0.0', port=3001, debug=True) uncommet for local use
 
 
 if __name__ == '__main__':

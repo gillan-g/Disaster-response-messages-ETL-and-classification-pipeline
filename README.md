@@ -1,5 +1,4 @@
 # Disaster Response Pipeline Project
-### Link to web app:
 
 ### Description
 During a disaster the need for fast and accurate response is essential to save lifes.
@@ -11,29 +10,29 @@ This application is a dummy attempt to create a solution for the above.
 The empty field accepts a text message, classifies it as relevant to a disaster or not, and outputs to the user the message tag.   
 
 ### Dependencies
-click==7.1.2
-Flask==1.1.2
-greenlet==1.0.0
-itsdangerous==1.1.0
-Jinja2==2.11.3
-joblib==1.0.1
-MarkupSafe==1.1.1
-nltk==3.6.1
-numpy==1.20.2
-pandas==1.2.3
-plotly==4.14.3
-python-dateutil==2.8.1
-pytz==2021.1
-regex==2021.4.4
-retrying==1.3.3
-scikit-learn==0.24.1
-scipy==1.6.2
-six==1.15.0
-sklearn==0.0
-SQLAlchemy==1.4.6
-threadpoolctl==2.1.0
-tqdm==4.60.0
-Werkzeug==1.0.1
+	- click==7.1.2
+	- Flask==1.1.2
+	- greenlet==1.0.0
+	- itsdangerous==1.1.0
+	- Jinja2==2.11.3
+	- joblib==1.0.1
+	- MarkupSafe==1.1.1
+	- nltk==3.6.1
+	- numpy==1.20.2
+	- pandas==1.2.3
+	- plotly==4.14.3
+	- python-dateutil==2.8.1
+	- pytz==2021.1
+	- regex==2021.4.4
+	- retrying==1.3.3
+	- scikit-learn==0.24.1
+	- scipy==1.6.2
+	- six==1.15.0
+	- sklearn==0.0
+	- SQLAlchemy==1.4.6
+	- threadpoolctl==2.1.0
+	- tqdm==4.60.0
+	- Werkzeug==1.0.1
 
 
 ### Instructions:
