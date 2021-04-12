@@ -49,21 +49,21 @@ The empty field accepts a text message, classifies it as relevant to a disaster 
 3. Go to http://0.0.0.0:3001/
 
 ### File Descriptions
-.
-├── README.md
-├── app : Flask App Files
-│ ├── run.py : Flask file to  run the app
-│ └── templates
-│ ├── go.html
-│ └── master.html
-├── data : It contains all ETL Files 
-│ ├── DisasterResponse.db :  SQLite DataBase file containing cleaned data after ETL process
-│ ├── disaster_categories.csv :  Disaster Categories CSV file
-│ ├── disaster_messages.csv : Messages CSV file
-│ └── process_data.py : ETL pipeline code
-├── models : It contains all ML files
-│ ├── classifier.pkl : classifier produced by train_classifier file
-│ └── train_classifier.py : ML pipeline classification code
+	.
+	├── README.md
+	├── app : Flask App Files
+	│ ├── run.py : Flask file to  run the app
+	│ └── templates
+	│ ├── go.html
+	│ └── master.html
+	├── data : It contains all ETL Files 
+	│ ├── DisasterResponse.db :  SQLite DataBase file containing cleaned data after ETL process
+	│ ├── disaster_categories.csv :  Disaster Categories CSV file
+	│ ├── disaster_messages.csv : Messages CSV file
+	│ └── process_data.py : ETL pipeline code
+	├── models : It contains all ML files
+	│ ├── classifier.pkl : classifier produced by train_classifier file
+	│ └── train_classifier.py : ML pipeline classification code
 
 ### Data flow overview
 This project performs the following steps:
@@ -81,7 +81,10 @@ NLP ML pipeline
 - Evaluate model classifiaction score
 - Save model as a pickel file for future use
 
-Finally, the application called using Flask framework.
+Finally, the application is called using Flask framework.
+
+### Image of the web app:
+![image](https://user-images.githubusercontent.com/69136925/114384567-8ba2c780-9b97-11eb-92f0-644a588bcc67.png)
 
 
 ### Licensing, Acknowledgements
